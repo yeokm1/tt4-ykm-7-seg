@@ -139,7 +139,7 @@
       "id": "sw2",
       "top": -70.99,
       "left": -825.76,
-      "attrs": { "value": "1" }
+      "attrs": { "value": "0" }
     },
     {
       "type": "wokwi-pushbutton",

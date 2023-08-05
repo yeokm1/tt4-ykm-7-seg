@@ -22,53 +22,47 @@ yaml_version: 4
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
   author:       "Yeo Kheng Meng"      # Your name
-  title:        "7 segment ykm"      # Project title
+  title:        "YKM first 7-seg driver"      # Project title
   language:     "Wokwi" # other examples include Verilog, Amaranth, VHDL, etc
-  description:  ""      # Short description of what your project does
+  description:  "Shows the string ykM_1St_CHIP character by character"      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
-      Explain how your project works
+    The string is shown by individual characters to the 7-segment LCD. 
+    By default with all pins except Clock being Low, the chip will cycle through all the characters depending on clock speed.
+    To display individual characters manually, set HIGH to counter pin and BCD. Then select the bits 0-3 manually.
+      
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
-      Explain how to test your project
+      See how_it_works.
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
+    - clock
     - none
     - none
     - none
-    - none
-    - none
-    - none
-    - none
-    - none
+    - Disable counter. This is active-high.
+    - Driven by BCD or counter. High for BCD, Low for counter.
+    - BCD bit 3
+    - BCD bit 2
+    - BCD bit 1
+    - BCD bit 0
 # A description of what the outputs do (e.g. status LED, SPI MISO, etc)
   outputs:
-    - segment a
-    - segment b
-    - segment c
-    - segment d
-    - segment e
-    - segment f
-    - segment g
-    - dot
-# A description of what the bidirectional I/O pins do (e.g. I2C SDA, I2C SCL, etc)
-  bidirectional:
-    - none
-    - none
-    - none
-    - none
-    - none
-    - none
-    - none
-    - none
+    - 7-segment a
+    - 7-segment b
+    - 7-segment c
+    - 7-segment d
+    - 7-segment e
+    - 7-segment f
+    - 7-segment g
 
 # The following fields are optional
-  tag:          ""      # comma separated list of tags: test, encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
-  external_hw:  ""      # Describe any external hardware needed
-  discord:      ""      # Your discord handle, used for communication and automatically assigning tapeout role after a submission
+  tag:          "7-segment"      # comma separated list of tags: test, encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
+  external_hw:  "7-segment LCD"      # Describe any external hardware needed
+  discord:      "yeokm1"      # Your discord handle, used for communication and automatically assigning tapeout role after a submission
   doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository
-  clock_hz:     0       # Clock frequency in Hz (if required)
+  clock_hz:     0.5       # Clock frequency in Hz (if required)
   picture:      ""      # relative path to a picture in your repository (must be 512kb or less)
