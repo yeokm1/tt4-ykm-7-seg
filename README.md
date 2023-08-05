@@ -1,5 +1,19 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/wokwi_test/badge.svg)
 
+# tt4-ykm-7-seg
+
+A Wokwi project for Tiny Tapout to show the string "ykM_1St_CHIP" character by character.
+
+Wokwi page: https://wokwi.com/projects/372184284115580929
+
+## How it works?
+
+The string is shown by individual characters to the 7-segment LCD. 
+By default with all pins except Clock being Low, the chip will cycle through all the characters depending on clock speed.
+To display individual characters manually, set HIGH to counter pin and BCD. Then select the bits 0-3 manually.
+    
+------
+
 # What is Tiny Tapeout?
 
 TinyTapeout is an educational project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip!
