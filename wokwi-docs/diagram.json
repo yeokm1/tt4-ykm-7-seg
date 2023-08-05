@@ -115,7 +115,7 @@
     {
       "type": "wokwi-dip-switch-8",
       "id": "sw1",
-      "top": 70.38,
+      "top": 70.83,
       "left": -926.25,
       "rotate": 90,
       "attrs": {}
@@ -125,7 +125,7 @@
       "id": "clock1",
       "top": -50.99,
       "left": -925.76,
-      "attrs": {}
+      "attrs": { "frequency": "0.5" }
     },
     {
       "type": "board-tt-block-input",
@@ -289,84 +289,102 @@
       "rotate": 90,
       "attrs": {}
     },
-    { "type": "wokwi-flip-flop-d", "id": "flipflop1", "top": -496.31, "left": 379.1, "attrs": {} },
-    { "type": "wokwi-gate-or-2", "id": "gate2", "top": -505.91, "left": 263.9, "attrs": {} },
-    { "type": "wokwi-flip-flop-d", "id": "flipflop2", "top": -496.31, "left": 695.9, "attrs": {} },
-    { "type": "wokwi-gate-or-2", "id": "gate3", "top": -505.91, "left": 580.7, "attrs": {} },
+    {
+      "type": "wokwi-flip-flop-d",
+      "id": "flipflop1",
+      "top": -435.23,
+      "left": -105.27,
+      "attrs": {}
+    },
+    { "type": "wokwi-gate-or-2", "id": "gate2", "top": -444.83, "left": -220.47, "attrs": {} },
+    {
+      "type": "wokwi-flip-flop-d",
+      "id": "flipflop2",
+      "top": -435.23,
+      "left": 211.53,
+      "attrs": {}
+    },
+    { "type": "wokwi-gate-or-2", "id": "gate3", "top": -444.83, "left": 96.33, "attrs": {} },
     {
       "type": "wokwi-flip-flop-d",
       "id": "flipflop3",
-      "top": -496.31,
-      "left": 1031.9,
+      "top": -435.23,
+      "left": 547.53,
       "attrs": {}
     },
-    { "type": "wokwi-gate-or-2", "id": "gate4", "top": -505.91, "left": 916.7, "attrs": {} },
+    { "type": "wokwi-gate-or-2", "id": "gate4", "top": -444.83, "left": 432.33, "attrs": {} },
     {
       "type": "wokwi-flip-flop-d",
       "id": "flipflop4",
-      "top": -486.71,
-      "left": 1367.9,
+      "top": -425.63,
+      "left": 883.53,
       "attrs": {}
     },
-    { "type": "wokwi-gate-or-2", "id": "gate5", "top": -496.31, "left": 1252.7, "attrs": {} },
-    { "type": "wokwi-flip-flop-d", "id": "flipflop5", "top": -486.71, "left": 100.7, "attrs": {} },
-    { "type": "wokwi-gate-or-2", "id": "gate6", "top": -496.31, "left": -14.5, "attrs": {} },
-    { "type": "wokwi-mux-2", "id": "mux1", "top": -429.11, "left": 494.3, "attrs": {} },
-    { "type": "wokwi-mux-2", "id": "mux2", "top": -429.11, "left": 811.1, "attrs": {} },
-    { "type": "wokwi-mux-2", "id": "mux3", "top": -429.11, "left": 1175.9, "attrs": {} },
+    { "type": "wokwi-gate-or-2", "id": "gate5", "top": -435.23, "left": 768.33, "attrs": {} },
+    {
+      "type": "wokwi-flip-flop-d",
+      "id": "flipflop5",
+      "top": -425.63,
+      "left": -383.67,
+      "attrs": {}
+    },
+    { "type": "wokwi-gate-or-2", "id": "gate6", "top": -435.23, "left": -498.87, "attrs": {} },
+    { "type": "wokwi-mux-2", "id": "mux1", "top": -368.03, "left": 9.93, "attrs": {} },
+    { "type": "wokwi-mux-2", "id": "mux2", "top": -368.03, "left": 326.73, "attrs": {} },
+    { "type": "wokwi-mux-2", "id": "mux3", "top": -368.03, "left": 691.53, "attrs": {} },
     {
       "type": "wokwi-gate-and-2",
       "id": "gate7",
-      "top": -688.31,
-      "left": -24.1,
+      "top": -627.23,
+      "left": -508.47,
       "rotate": 180,
       "attrs": {}
     },
     {
       "type": "wokwi-gate-and-2",
       "id": "gate8",
-      "top": -630.71,
-      "left": -24.1,
+      "top": -569.63,
+      "left": -508.47,
       "rotate": 180,
       "attrs": {}
     },
     {
       "type": "wokwi-gate-and-2",
       "id": "gate9",
-      "top": -577.71,
-      "left": -24.1,
+      "top": -516.63,
+      "left": -508.47,
       "rotate": 180,
       "attrs": {}
     },
     {
       "type": "wokwi-led",
       "id": "led13",
-      "top": -595.91,
-      "left": -106.7,
+      "top": -534.83,
+      "left": -591.07,
       "attrs": { "color": "red", "flip": "" }
     },
-    { "type": "wokwi-gnd", "id": "pwr1", "top": -525.11, "left": -101.5, "attrs": {} },
+    { "type": "wokwi-gnd", "id": "pwr1", "top": -464.03, "left": -585.87, "attrs": {} },
     {
       "type": "wokwi-led-bar-graph",
       "id": "bargraph1",
-      "top": -342.91,
-      "left": -28.5,
+      "top": -281.83,
+      "left": -512.87,
       "rotate": 180,
       "attrs": { "color": "lime" }
     },
     {
       "type": "wokwi-gnd",
       "id": "pwr2",
-      "top": -336.71,
-      "left": -53.1,
+      "top": -275.63,
+      "left": -537.47,
       "rotate": 180,
       "attrs": {}
     },
     {
       "type": "wokwi-text",
       "id": "text1",
-      "top": -726.71,
-      "left": -33.7,
+      "top": -665.63,
+      "left": -518.07,
       "attrs": { "text": "Check if counter == 10...if so send reset signal" }
     },
     { "type": "wokwi-mux-2", "id": "mux4", "top": -0.39, "left": -376.57, "attrs": {} },
@@ -683,7 +701,7 @@
     [ "gate2:B", "gate3:B", "blue", [ "h0", "v38.4", "h307.2" ] ],
     [ "gate3:B", "gate4:B", "blue", [ "v38.4", "h336" ] ],
     [ "gate4:B", "gate5:B", "blue", [ "h0", "v38.4", "h336" ] ],
-    [ "flipflop5:CLK", "flipflop1:CLK", "cyan", [ "h0", "v28.8", "h288" ] ],
+    [ "flipflop5:CLK", "flipflop1:CLK", "cyan", [ "h-43.44", "v28.8", "h321.84" ] ],
     [ "mux1:B", "flipflop1:CLK", "cyan", [ "h0" ] ],
     [ "gate7:OUT", "gate8:B", "black", [ "v24.2", "h96" ] ],
     [ "gate8:OUT", "gate9:B", "black", [ "v24.2", "h96" ] ],
@@ -718,7 +736,15 @@
     [ "sw1:7b", "ttin:EXTIN6", "green", [ "h0" ] ],
     [ "sw1:6b", "ttin:EXTIN5", "green", [ "h0" ] ],
     [ "sw1:5b", "ttin:EXTIN4", "green", [ "h0" ] ],
-    [ "sw1:4b", "ttin:EXTIN3", "green", [ "h0" ] ]
+    [ "sw1:4b", "ttin:EXTIN3", "green", [ "h0" ] ],
+    [ "mux4:A", "bargraph1:A4", "yellow", [ "h-12.1", "v-222.64" ] ],
+    [ "mux5:A", "bargraph1:A3", "limegreen", [ "h-32.56", "v-333.08" ] ],
+    [ "mux6:A", "bargraph1:A2", "magenta", [ "h-51.58", "v-444.05" ] ],
+    [ "mux7:A", "bargraph1:A1", "purple", [ "h-86", "v-554.3" ] ],
+    [ "sw2:2", "ttin:EXTCLK", "cyan", [ "v0" ] ],
+    [ "ttin:CLK", "flipflop5:CLK", "cyan", [ "h45.84", "v-416.41", "h181.06", "v-28.2" ] ],
+    [ "ttin:EXTIN2", "sw1:3b", "green", [ "h0" ] ],
+    [ "ttin:IN2", "gate6:B", "#8f4814", [ "h77.01", "v-493.02" ] ]
   ],
   "dependencies": {}
 }

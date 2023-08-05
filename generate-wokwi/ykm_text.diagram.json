@@ -1,0 +1,3233 @@
+{
+    "version": 1,
+    "author": "maehw",
+    "editor": "wokwi",
+    "parts": [
+        {
+            "type": "wokwi-gate-buffer",
+            "id": "input_w",
+            "top": 0,
+            "left": 0,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-not",
+            "id": "input_not_w",
+            "top": 60,
+            "left": 0,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-buffer",
+            "id": "input_x",
+            "top": 120,
+            "left": 0,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-not",
+            "id": "input_not_x",
+            "top": 180,
+            "left": 0,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-buffer",
+            "id": "input_y",
+            "top": 240,
+            "left": 0,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-not",
+            "id": "input_not_y",
+            "top": 300,
+            "left": 0,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-buffer",
+            "id": "input_z",
+            "top": 360,
+            "left": 0,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-not",
+            "id": "input_not_z",
+            "top": 420,
+            "left": 0,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_0",
+            "top": 0,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_1",
+            "top": 60,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_2",
+            "top": 120,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_3",
+            "top": 180,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_4",
+            "top": 240,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_5",
+            "top": 300,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_6",
+            "top": 360,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_7",
+            "top": 420,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_8",
+            "top": 480,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_9",
+            "top": 540,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_10",
+            "top": 600,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_11",
+            "top": 660,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_12",
+            "top": 720,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_13",
+            "top": 780,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_14",
+            "top": 840,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_15",
+            "top": 900,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_16",
+            "top": 960,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_17",
+            "top": 1020,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_18",
+            "top": 1080,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_19",
+            "top": 1140,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_20",
+            "top": 1200,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_21",
+            "top": 1260,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_22",
+            "top": 1320,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_23",
+            "top": 1380,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_24",
+            "top": 1440,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_25",
+            "top": 1500,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_26",
+            "top": 1560,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_27",
+            "top": 1620,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_28",
+            "top": 1680,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_29",
+            "top": 1740,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_30",
+            "top": 1800,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_31",
+            "top": 1860,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_32",
+            "top": 1920,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_33",
+            "top": 1980,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_34",
+            "top": 2040,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_35",
+            "top": 2100,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_36",
+            "top": 2160,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_37",
+            "top": 2220,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_38",
+            "top": 2280,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_39",
+            "top": 2340,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_40",
+            "top": 2400,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_41",
+            "top": 2460,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_42",
+            "top": 2520,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_43",
+            "top": 2580,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_44",
+            "top": 2640,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_45",
+            "top": 2700,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_46",
+            "top": 2760,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_47",
+            "top": 2820,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_48",
+            "top": 2880,
+            "left": 240,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_49",
+            "top": 2940,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_50",
+            "top": 3000,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_51",
+            "top": 3060,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_52",
+            "top": 3120,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_53",
+            "top": 3180,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_54",
+            "top": 3240,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_55",
+            "top": 3300,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_56",
+            "top": 3360,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_57",
+            "top": 3420,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_58",
+            "top": 3480,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_59",
+            "top": 3540,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_60",
+            "top": 3600,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_61",
+            "top": 3660,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_62",
+            "top": 3720,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_63",
+            "top": 3780,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_64",
+            "top": 3840,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_65",
+            "top": 3900,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_66",
+            "top": 3960,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_67",
+            "top": 4020,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_68",
+            "top": 4080,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_69",
+            "top": 4140,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-and-2",
+            "id": "gate_and_70",
+            "top": 4200,
+            "left": 360,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_0",
+            "top": 0,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_1",
+            "top": 60,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_2",
+            "top": 120,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_3",
+            "top": 180,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_4",
+            "top": 240,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_5",
+            "top": 300,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_6",
+            "top": 360,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_7",
+            "top": 420,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_8",
+            "top": 480,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_9",
+            "top": 540,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_10",
+            "top": 600,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_11",
+            "top": 660,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_12",
+            "top": 720,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_13",
+            "top": 780,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_14",
+            "top": 840,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_15",
+            "top": 900,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_16",
+            "top": 960,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_17",
+            "top": 1020,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_18",
+            "top": 1080,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_19",
+            "top": 1140,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_20",
+            "top": 1200,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "gate_or_21",
+            "top": 1260,
+            "left": 600,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-buffer",
+            "id": "output_A",
+            "top": 0,
+            "left": 720,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-buffer",
+            "id": "output_B",
+            "top": 120,
+            "left": 720,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-buffer",
+            "id": "output_C",
+            "top": 240,
+            "left": 720,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-buffer",
+            "id": "output_D",
+            "top": 360,
+            "left": 720,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-buffer",
+            "id": "output_E",
+            "top": 480,
+            "left": 720,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-buffer",
+            "id": "output_F",
+            "top": 600,
+            "left": 720,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-buffer",
+            "id": "output_G",
+            "top": 720,
+            "left": 720,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-buffer",
+            "id": "output_H",
+            "top": 840,
+            "left": 720,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-dip-switch-8",
+            "id": "sw1",
+            "top": -188,
+            "left": -400,
+            "rotate": 90,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-clock-generator",
+            "id": "clock1",
+            "top": -300,
+            "left": -400,
+            "attrs": {}
+        },
+        {
+            "type": "board-tt-block-input-8",
+            "id": "ttin",
+            "top": -200,
+            "left": -230,
+            "attrs": {
+                "verilogRole": "input"
+            }
+        },
+        {
+            "type": "wokwi-slide-switch",
+            "id": "sw2",
+            "top": -320,
+            "left": -300,
+            "attrs": {
+                "value": "1"
+            }
+        },
+        {
+            "type": "wokwi-pushbutton",
+            "id": "btn1",
+            "top": -410,
+            "left": -400,
+            "attrs": {
+                "color": "grey",
+                "label": "Step",
+                "bounce": "0"
+            }
+        },
+        {
+            "type": "board-tt-block-output",
+            "id": "ttout",
+            "top": -200,
+            "left": 900,
+            "attrs": {
+                "verilogRole": "output"
+            }
+        },
+        {
+            "type": "wokwi-7segment",
+            "id": "sevseg1",
+            "top": -200,
+            "left": 1100,
+            "attrs": {
+                "common": "cathode"
+            }
+        },
+        {
+            "type": "wokwi-vcc",
+            "id": "vcc_btn",
+            "top": -450,
+            "left": -320,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-vcc",
+            "id": "vcc_dipsw",
+            "top": -240,
+            "left": -420,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gnd",
+            "id": "gnd_7seg",
+            "top": -70,
+            "left": 1100,
+            "attrs": {}
+        }
+    ],
+    "connections": [
+        [
+            "input_not_w:IN",
+            "input_w:IN",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "input_not_x:IN",
+            "input_x:IN",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "input_not_y:IN",
+            "input_y:IN",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "input_not_z:IN",
+            "input_z:IN",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "input_not_w:OUT",
+            "gate_and_0:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_y:OUT",
+            "gate_and_0:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_z:OUT",
+            "gate_and_1:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_1:A",
+            "gate_and_1:B",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "input_w:OUT",
+            "gate_and_2:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_x:OUT",
+            "gate_and_2:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_y:OUT",
+            "gate_and_3:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_z:OUT",
+            "gate_and_3:B",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_w:OUT",
+            "gate_and_4:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_x:OUT",
+            "gate_and_4:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_y:OUT",
+            "gate_and_5:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_z:OUT",
+            "gate_and_5:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_w:OUT",
+            "gate_and_6:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_x:OUT",
+            "gate_and_6:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_y:OUT",
+            "gate_and_7:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_z:OUT",
+            "gate_and_7:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_w:OUT",
+            "gate_and_8:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_x:OUT",
+            "gate_and_8:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_z:OUT",
+            "gate_and_9:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_9:A",
+            "gate_and_9:B",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "input_not_w:OUT",
+            "gate_and_10:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_y:OUT",
+            "gate_and_10:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_z:OUT",
+            "gate_and_11:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_11:A",
+            "gate_and_11:B",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "input_w:OUT",
+            "gate_and_12:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_x:OUT",
+            "gate_and_12:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_z:OUT",
+            "gate_and_13:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_13:A",
+            "gate_and_13:B",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "input_not_w:OUT",
+            "gate_and_14:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_y:OUT",
+            "gate_and_14:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_x:OUT",
+            "gate_and_15:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_y:OUT",
+            "gate_and_15:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_z:OUT",
+            "gate_and_16:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_16:A",
+            "gate_and_16:B",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "input_not_x:OUT",
+            "gate_and_17:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_y:OUT",
+            "gate_and_17:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_z:OUT",
+            "gate_and_18:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_18:A",
+            "gate_and_18:B",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "input_not_w:OUT",
+            "gate_and_19:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_y:OUT",
+            "gate_and_19:B",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_w:OUT",
+            "gate_and_20:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_x:OUT",
+            "gate_and_20:B",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_z:OUT",
+            "gate_and_21:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_21:A",
+            "gate_and_21:B",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "input_not_x:OUT",
+            "gate_and_22:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_y:OUT",
+            "gate_and_22:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_z:OUT",
+            "gate_and_23:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_23:A",
+            "gate_and_23:B",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "input_w:OUT",
+            "gate_and_24:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_x:OUT",
+            "gate_and_24:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_w:OUT",
+            "gate_and_25:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_x:OUT",
+            "gate_and_25:B",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_y:OUT",
+            "gate_and_26:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_z:OUT",
+            "gate_and_26:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_w:OUT",
+            "gate_and_27:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_y:OUT",
+            "gate_and_27:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_z:OUT",
+            "gate_and_28:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_28:A",
+            "gate_and_28:B",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "input_not_x:OUT",
+            "gate_and_29:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_y:OUT",
+            "gate_and_29:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_w:OUT",
+            "gate_and_30:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_x:OUT",
+            "gate_and_30:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_w:OUT",
+            "gate_and_31:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_y:OUT",
+            "gate_and_31:B",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_z:OUT",
+            "gate_and_32:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_32:A",
+            "gate_and_32:B",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "input_not_w:OUT",
+            "gate_and_33:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_y:OUT",
+            "gate_and_33:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_z:OUT",
+            "gate_and_34:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_34:A",
+            "gate_and_34:B",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "input_not_w:OUT",
+            "gate_and_35:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_x:OUT",
+            "gate_and_35:B",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_y:OUT",
+            "gate_and_36:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_z:OUT",
+            "gate_and_36:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_w:OUT",
+            "gate_and_37:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_x:OUT",
+            "gate_and_37:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_y:OUT",
+            "gate_and_38:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_38:A",
+            "gate_and_38:B",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "input_w:OUT",
+            "gate_and_39:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_x:OUT",
+            "gate_and_39:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_z:OUT",
+            "gate_and_40:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_40:A",
+            "gate_and_40:B",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "input_not_w:OUT",
+            "gate_and_41:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_y:OUT",
+            "gate_and_41:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_z:OUT",
+            "gate_and_42:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_42:A",
+            "gate_and_42:B",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "input_not_w:OUT",
+            "gate_and_43:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_x:OUT",
+            "gate_and_43:B",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_y:OUT",
+            "gate_and_44:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_z:OUT",
+            "gate_and_44:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_w:OUT",
+            "gate_and_45:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_x:OUT",
+            "gate_and_45:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_y:OUT",
+            "gate_and_46:A",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_46:A",
+            "gate_and_46:B",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "input_w:OUT",
+            "gate_and_47:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_not_x:OUT",
+            "gate_and_47:B",
+            "blue",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "input_z:OUT",
+            "gate_and_48:A",
+            "brown",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_48:A",
+            "gate_and_48:B",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "gate_and_0:OUT",
+            "gate_and_49:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_1:OUT",
+            "gate_and_49:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_2:OUT",
+            "gate_and_50:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_3:OUT",
+            "gate_and_50:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_4:OUT",
+            "gate_and_51:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_5:OUT",
+            "gate_and_51:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_6:OUT",
+            "gate_and_52:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_7:OUT",
+            "gate_and_52:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_8:OUT",
+            "gate_and_53:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_9:OUT",
+            "gate_and_53:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_10:OUT",
+            "gate_and_54:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_11:OUT",
+            "gate_and_54:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_12:OUT",
+            "gate_and_55:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_13:OUT",
+            "gate_and_55:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_16:OUT",
+            "gate_and_56:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_15:OUT",
+            "gate_and_56:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_17:OUT",
+            "gate_and_57:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_18:OUT",
+            "gate_and_57:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_20:OUT",
+            "gate_and_58:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_21:OUT",
+            "gate_and_58:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_22:OUT",
+            "gate_and_59:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_23:OUT",
+            "gate_and_59:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_25:OUT",
+            "gate_and_60:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_26:OUT",
+            "gate_and_60:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_27:OUT",
+            "gate_and_61:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_28:OUT",
+            "gate_and_61:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_32:OUT",
+            "gate_and_62:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_31:OUT",
+            "gate_and_62:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_33:OUT",
+            "gate_and_63:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_34:OUT",
+            "gate_and_63:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_35:OUT",
+            "gate_and_64:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_36:OUT",
+            "gate_and_64:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_37:OUT",
+            "gate_and_65:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_38:OUT",
+            "gate_and_65:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_40:OUT",
+            "gate_and_66:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_39:OUT",
+            "gate_and_66:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_41:OUT",
+            "gate_and_67:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_42:OUT",
+            "gate_and_67:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_43:OUT",
+            "gate_and_68:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_44:OUT",
+            "gate_and_68:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_45:OUT",
+            "gate_and_69:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_46:OUT",
+            "gate_and_69:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_48:OUT",
+            "gate_and_70:A",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_47:OUT",
+            "gate_and_70:B",
+            "orange",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_49:OUT",
+            "gate_or_0:A",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_50:OUT",
+            "gate_or_0:B",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_51:OUT",
+            "gate_or_1:A",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_52:OUT",
+            "gate_or_1:B",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_53:OUT",
+            "gate_or_2:A",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_54:OUT",
+            "gate_or_2:B",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_55:OUT",
+            "gate_or_3:A",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_3:A",
+            "gate_or_3:B",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "gate_and_14:OUT",
+            "gate_or_4:A",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_56:OUT",
+            "gate_or_4:B",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_57:OUT",
+            "gate_or_5:A",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_19:OUT",
+            "gate_or_5:B",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_58:OUT",
+            "gate_or_6:A",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_6:A",
+            "gate_or_6:B",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "gate_and_59:OUT",
+            "gate_or_7:A",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_24:OUT",
+            "gate_or_7:B",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_60:OUT",
+            "gate_or_8:A",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_8:A",
+            "gate_or_8:B",
+            "black",
+            [
+                "h-20",
+                "*",
+                "h-20"
+            ]
+        ],
+        [
+            "gate_and_61:OUT",
+            "gate_or_9:A",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_29:OUT",
+            "gate_or_9:B",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_30:OUT",
+            "gate_or_10:A",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_62:OUT",
+            "gate_or_10:B",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_63:OUT",
+            "gate_or_11:A",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_64:OUT",
+            "gate_or_11:B",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_65:OUT",
+            "gate_or_12:A",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_66:OUT",
+            "gate_or_12:B",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_67:OUT",
+            "gate_or_13:A",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_68:OUT",
+            "gate_or_13:B",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_69:OUT",
+            "gate_or_14:A",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_and_70:OUT",
+            "gate_or_14:B",
+            "purple",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_0:OUT",
+            "gate_or_15:A",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_1:OUT",
+            "gate_or_15:B",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_15:OUT",
+            "output_A:IN",
+            "cyan",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_2:OUT",
+            "gate_or_16:A",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_3:OUT",
+            "gate_or_16:B",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_16:OUT",
+            "output_B:IN",
+            "cyan",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_4:OUT",
+            "output_C:IN",
+            "cyan",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_5:OUT",
+            "gate_or_17:A",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_6:OUT",
+            "gate_or_17:B",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_17:OUT",
+            "output_D:IN",
+            "cyan",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_8:OUT",
+            "gate_or_18:A",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_7:OUT",
+            "gate_or_18:B",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_18:OUT",
+            "output_E:IN",
+            "cyan",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_9:OUT",
+            "gate_or_19:A",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_10:OUT",
+            "gate_or_19:B",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_19:OUT",
+            "output_F:IN",
+            "cyan",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_11:OUT",
+            "gate_or_20:A",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_12:OUT",
+            "gate_or_20:B",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_20:OUT",
+            "output_G:IN",
+            "cyan",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_13:OUT",
+            "gate_or_21:A",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_14:OUT",
+            "gate_or_21:B",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "gate_or_21:OUT",
+            "output_H:IN",
+            "cyan",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "vcc_dipsw:VCC",
+            "sw1:1a",
+            "red",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "vcc_dipsw:VCC",
+            "sw1:2a",
+            "red",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "vcc_dipsw:VCC",
+            "sw1:3a",
+            "red",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "vcc_dipsw:VCC",
+            "sw1:4a",
+            "red",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "vcc_dipsw:VCC",
+            "sw1:5a",
+            "red",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "vcc_dipsw:VCC",
+            "sw1:6a",
+            "red",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "vcc_dipsw:VCC",
+            "sw1:7a",
+            "red",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "vcc_dipsw:VCC",
+            "sw1:8a",
+            "red",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "btn1:2.r",
+            "sw2:3",
+            "orange",
+            [
+                "h90",
+                "*",
+                "v10"
+            ]
+        ],
+        [
+            "vcc_btn:VCC",
+            "btn1:1.r",
+            "red",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "sw2:1",
+            "clock1:CLK",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "sw2:3",
+            "sw1:1b",
+            "violet",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "chip1:EXTIN0",
+            "sw2:2",
+            "green",
+            [
+                "h0",
+                "v-40",
+                "h-20"
+            ]
+        ],
+        [
+            "chip1:EXTIN1",
+            "sw1:2b",
+            "violet",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "chip1:EXTIN2",
+            "sw1:3b",
+            "violet",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "chip1:EXTIN3",
+            "sw1:4b",
+            "violet",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "chip1:EXTIN4",
+            "sw1:5b",
+            "violet",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "chip1:EXTIN5",
+            "sw1:6b",
+            "violet",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "chip1:EXTIN6",
+            "sw1:7b",
+            "violet",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "chip1:EXTIN7",
+            "sw1:8b",
+            "violet",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "chip2:EXTOUT0",
+            "sevseg1:A",
+            "green",
+            [
+                "h21.01",
+                "v-28.8",
+                "h96"
+            ]
+        ],
+        [
+            "chip2:EXTOUT1",
+            "sevseg1:B",
+            "green",
+            [
+                "h11.41",
+                "v-48",
+                "h115.2",
+                "v38.4"
+            ]
+        ],
+        [
+            "chip2:EXTOUT2",
+            "sevseg1:C",
+            "green",
+            [
+                "h30.61",
+                "v-38.4",
+                "h115.2",
+                "v105.6",
+                "h-28.8"
+            ]
+        ],
+        [
+            "chip2:EXTOUT3",
+            "sevseg1:D",
+            "green",
+            [
+                "h49.81",
+                "v57.6",
+                "h48"
+            ]
+        ],
+        [
+            "chip2:EXTOUT4",
+            "sevseg1:E",
+            "green",
+            [
+                "v9.6",
+                "h-48",
+                "v-38.4"
+            ]
+        ],
+        [
+            "chip2:EXTOUT5",
+            "sevseg1:F",
+            "green",
+            [
+                "h69.01",
+                "v-57.6",
+                "h28.8"
+            ]
+        ],
+        [
+            "chip2:EXTOUT6",
+            "sevseg1:G",
+            "green",
+            [
+                "h78.61",
+                "v-57.6"
+            ]
+        ],
+        [
+            "chip2:EXTOUT7",
+            "sevseg1:DP",
+            "green",
+            [
+                "v28.8",
+                "h136.21"
+            ]
+        ],
+        [
+            "chip2:EXTOUT7",
+            "sevseg1:DP",
+            "green",
+            [
+                "v28.8",
+                "h136.21"
+            ]
+        ],
+        [
+            "gnd_7seg:GND",
+            "sevseg1:COM.1",
+            "black",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "chip1:IN0",
+            "input_w:IN",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "chip1:IN1",
+            "input_x:IN",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "chip1:IN2",
+            "input_y:IN",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "chip1:IN3",
+            "input_z:IN",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "output_A:OUT",
+            "chip2:OUT0",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "output_B:OUT",
+            "chip2:OUT1",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "output_C:OUT",
+            "chip2:OUT2",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "output_D:OUT",
+            "chip2:OUT3",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "output_E:OUT",
+            "chip2:OUT4",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "output_F:OUT",
+            "chip2:OUT5",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "output_G:OUT",
+            "chip2:OUT6",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ],
+        [
+            "output_H:OUT",
+            "chip2:OUT7",
+            "green",
+            [
+                "h10",
+                "*",
+                "h-10"
+            ]
+        ]
+    ]
+}
