@@ -51,14 +51,14 @@ documentation:
     - BCD bit 0
 # A description of what the outputs do (e.g. status LED, SPI MISO, etc)
   outputs:
-    - segment a
-    - segment b
-    - segment c
-    - segment d
-    - segment e
-    - segment f
-    - segment g
-    - dot
+    - 7-segment a
+    - 7-segment b
+    - 7-segment c
+    - 7-segment d
+    - 7-segment e
+    - 7-segment f
+    - 7-segment g
+    - none
 # A description of what the bidirectional I/O pins do (e.g. I2C SDA, I2C SCL, etc)
   bidirectional:
     - none
@@ -73,6 +73,6 @@ documentation:
   tag:          "7-segment"      # comma separated list of tags: test, encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
   external_hw:  "7-segment LCD"      # Describe any external hardware needed
   discord:      "yeokm1"      # Your discord handle, used for communication and automatically assigning tapeout role after a submission
-  doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository
+  doc_link:     "https://github.com/yeokm1/tt4-ykm-7-seg/blob/main/README.md"      # URL to longer form documentation, eg the README.md in your repository
   clock_hz:     0.5       # Clock frequency in Hz (if required)
   picture:      ""      # relative path to a picture in your repository (must be 512kb or less)
