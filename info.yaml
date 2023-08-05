@@ -22,7 +22,7 @@ yaml_version: 4
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
   author:       "Yeo Kheng Meng"      # Your name
-  title:        "YKM first 7-seg driver"      # Project title
+  title:        "YKM 7-seg driver"      # Project title
   language:     "Wokwi" # other examples include Verilog, Amaranth, VHDL, etc
   description:  "Shows the string ykM_1St_CHIP character by character"      # Short description of what your project does
 
@@ -39,14 +39,16 @@ documentation:
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
+    - clock
     - none
     - none
     - none
-    - none
-    - none
-    - none
-    - none
-    - none
+    - Disable counter. This is active-high.
+    - Driven by BCD or counter. High for BCD, Low for counter.
+    - BCD bit 3
+    - BCD bit 2
+    - BCD bit 1
+    - BCD bit 0
 # A description of what the outputs do (e.g. status LED, SPI MISO, etc)
   outputs:
     - segment a
