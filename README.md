@@ -9,9 +9,27 @@ Wokwi page: https://wokwi.com/projects/372184284115580929
 ## How it works?
 
 The string is shown by individual characters to the 7-segment LCD. 
+
 By default with all pins except Clock being Low, the chip will cycle through all the characters depending on clock speed.
+
 To display individual characters manually, set HIGH to counter pin and BCD. Then select the bits 0-3 manually.
-    
+
+## Directory structure
+
+* generate-wokwi: Files used to produce the truthtable using the [wokwi-lookup-table-generator](https://github.com/maehw/wokwi-lookup-table-generator)
+* wokwi-docs: Design files downloaded from Wokwi website
+
+## Generating LUT
+
+After setting up the [wokwi-lookup-table-generator](https://github.com/maehw/wokwi-lookup-table-generator), 
+
+```bash
+python3 generate.py -f ykm_text.json -o ykm_text.diagram.json --tinytapeout3 -v
+```
+
+## References
+* https://github.com/r4d10n/tinytapeout-HELLo-3orLd-7seg/
+
 ------
 
 # What is Tiny Tapeout?
