@@ -58,7 +58,16 @@ documentation:
     - 7-segment e
     - 7-segment f
     - 7-segment g
-
+# A description of what the bidirectional I/O pins do (e.g. I2C SDA, I2C SCL, etc)
+  bidirectional:
+    - none
+    - none
+    - none
+    - none
+    - none
+    - none
+    - none
+    - none
 # The following fields are optional
   tag:          "7-segment"      # comma separated list of tags: test, encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
   external_hw:  "7-segment LCD"      # Describe any external hardware needed
